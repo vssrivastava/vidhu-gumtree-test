@@ -1,6 +1,7 @@
 .item-info {
   padding: 8px;
   display: flex;
+  min-height: 240px;
 }
 .item-info h2 {
   margin: 8px 0;
