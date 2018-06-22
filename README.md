@@ -19,4 +19,5 @@ You will also see any lint errors in the console.
 ![ScreenShot1](/screenshot.jpg?raw=true)
 
 ## Implemented Solution
+(content.json had broken characters which are showing as �)
 ![ScreenShot2](/screenshot.png?raw=true)
