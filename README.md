@@ -15,4 +15,8 @@ Please run <b>npm install</b> before executing the script.
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
 
-![ScreenShot](/screenshot.png?raw=true "Optional Title")
+## Requested Solution
+![ScreenShot1](/screenshot.jpg?raw=true)
+
+## Implemented Solution
+![ScreenShot2](/screenshot.png?raw=true)
