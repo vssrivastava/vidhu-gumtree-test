@@ -15,7 +15,7 @@ const ItemInformation = ({content}) => (
     <div className='info-content'>
       {/* title was not part of requirement but I still added it so we know if they are in sync with nav bar*/}
       <h2>{content.title}</h2>
-      <div>{content.description}</div>
+      <div dangerouslySetInnerHTML={{__html:content.description}} />
     </div>
   </div>
 );
