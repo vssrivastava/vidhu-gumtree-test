@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,600');
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 16px;
+}
+.app {
+  width: 90%;
+  margin: 24px auto;
+}
+.panel .info-section {
+  transition: .5s max-height ease-in-out;
+  max-height: 800px;
+  overflow: hidden;
+}
+.panel.collapsed .info-section {
+  max-height: 0;
+}
+.panel.collapsed,
+.panel.collapsed .title-bar {
+  border-radius: 6px
+}

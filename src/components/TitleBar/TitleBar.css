@@ -1,0 +1,21 @@
+.title-bar {
+  padding: 18px;
+  background: linear-gradient(to right, #e5e4c7, #bbbb95);
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  font-weight: 600;
+}
+
+.note-icon {
+  transform: rotate(180deg) scaleX(-1) scaleY(1.3);
+  font-size: 18px;
+  margin-right: 8px;
+  color: #3e7c0b;
+  vertical-align: middle;
+}
+
+.float-icon {
+  float: right;
+  font-size: 24px;
+  color: #3e7c0b;
+}
