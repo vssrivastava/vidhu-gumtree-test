@@ -70,6 +70,7 @@ class Panel extends Component {
         <div className='info-section'>
           <ItemInformation content={content[selected]} />
           <NavBar
+            collapsed={collapsed}
             prev={selected > 0 ? content[selected-1].title : null}
             prevAction={() => this.loadPrev(selected)}
             next={selected < content.length-1 ? content[selected+1].title : null}

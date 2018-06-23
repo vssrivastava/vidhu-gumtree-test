@@ -5,6 +5,15 @@
   border-top-right-radius: 6px;
   font-weight: 600;
 }
+.title-bar button {
+  display: block;
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  color: inherit;
+  font: inherit;
+}
 
 .note-icon {
   transform: rotate(180deg) scaleX(-1) scaleY(1.3);
